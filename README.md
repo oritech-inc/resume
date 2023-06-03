@@ -5,10 +5,10 @@ This repository contains the code and assets for my personal portfolio website. 
 
 ## Features
 
-- **About Me**: A brief introduction about myself, highlighting my background, skills, and career goals.
+- **Features**: A brief introduction about myself, highlighting my background, skills, and career goals.
 - **Projects**: A collection of my notable projects, with detailed descriptions, screenshots, and links to live demos or repositories.
 - **Skills**: An overview of my technical skills and areas of expertise.
-- **Experience**: A timeline showcasing my professional experience and achievements.
+- **Resume**: A timeline showcasing my professional experience and achievements.
 - **Contact**: A contact form for users to reach out to me directly.
 
 ## Technologies Used
@@ -19,13 +19,12 @@ This repository contains the code and assets for my personal portfolio website. 
 - Tailwind
 - React.js
 - Node.js
-- MySql
 
 ## Getting Started
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/origintech-inc/portfolio.git`
+1. Clone the repository: `git clone https://github.com/origintech-inc/resume.git`
 2. Navigate to the project directory: `cd resume/`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
@@ -35,10 +34,9 @@ To set up the project locally, follow these steps:
 
 - `/src`: Contains the source code for the frontend.
     - `/components`: Reusable components used throughout the website.
-    - `/pages`: Individual pages of the portfolio.
-    - `/styles`: CSS stylesheets for styling the components and pages.
-- `/server`: Contains the server-side code for handling form submissions and APIs.
-- `/public`: Static assets, including images and fonts.
+    - `/constants`: Individual pages of the portfolio.
+    - `/css`: CSS stylesheets for styling the components and pages.
+    - `/assets`: Static assets, including images, javacript and fonts.
 - `README.md`: Information about the project and instructions for running it.
 
 ## Contributing
@@ -47,7 +45,7 @@ I welcome contributions to enhance the functionality or design of my portfolio w
 
 ## License
 
-This project is licensed under the samkelwe wakeni. Feel free to use the code as a reference or modify it to create your own portfolio. However, please remember to replace the content with your own information and avoid direct copying of the design.
+This project is licensed under the original technologies limited. Feel free to use the code as a reference or modify it to create your own portfolio. However, please remember to replace the content with your own information and avoid direct copying of the design.
 
 ## Contact
 
