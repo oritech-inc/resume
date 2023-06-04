@@ -17,7 +17,8 @@ header #title {
 }
 
 header #text {
-    font-size: 2.2rem;
+    font-size: 2rem;
+        letter-spacing: 0px;
 }
 
 header #text #name {
@@ -26,34 +27,32 @@ header #text #name {
 }
 
 header #subtitle {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bolder;
-    font-style: italic;
 }
 
 .social {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .social h2 {
     font-weight: bolder;
-    font: 1.3em Roboto Mono, monospace;
+    font: 1.2em Roboto Mono, monospace;
     color: var(--red-color);
 }
 
 .socialIcon {
     box-shadow: 10px 10px 19px var(--gray-color), -10px -10px 19px var(--green-color);
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+        height: 2rem;
     opacity: 0.7;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 20%;
     background-color: var(--black-color);
     color: var(--green-color);
-    border-bottom: 5px solid var(--red-color);
 }
 
 .socialIcon:hover {
@@ -63,8 +62,6 @@ header #subtitle {
     cursor: pointer;
     background-color: var(--red-color);
     color: var(--white-color);
-    transform: scale(1.1);
-    font-size: 2rem;
 }
 
 
@@ -80,4 +77,7 @@ header #subtitle {
     }
 }
 
+header #top img {
+    filter: grayscale;
+}
 /*----------------------- Features --------------------------------*/

@@ -11,10 +11,8 @@ function App() {
 
   return (
     <div className={'w-full h-full bg-bodyColor text-lightColor'}>
-      <div className={'max-w mx-auto pt-10'}>
-        <header id={'header'} className={'w-full h-[800px] pt-10 flex flex-col border-b-[1px] border-b-gray-800'}>
-          <Header />
-        </header>
+      <div className={'max-w mx-auto pt-5'}>
+        <Header />
         <Features />
         <Projects />
         {/* <Resume />

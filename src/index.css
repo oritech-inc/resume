@@ -8,31 +8,33 @@
     --white-color: #ffffff;
     --green-color: #2f4f4f;
     --black-color: #101826;
-        --gray-color: #1F2937;
+    --gray-color: #1F2937;
 }
 
-section,
-header {
+section {
     height: 100vh;
     color: var(--white-color);
 }
 
+nav img:hover {
+    filter: grayscale;
+    transition: all .1 ease-in-out;
+    transform: scaleX(-1);
+}
 nav ul li a {
     background: transparent;
-    padding: 5px;
+    padding: 8px 12px;
     font-weight: bolder;
     text-transform: capitalize;
 }
 
 nav ul li a.active {
     color: var(--white-color);
-        background: #101826;
-        padding: 5px;
+    background: var(--green-color);
 }
 
 nav ul li a:hover {
     color: var(--white-color);
-        background: var(--black-color);
+    background: var(--green-color);
         opacity: .7;
-        padding: 5px;
 }
