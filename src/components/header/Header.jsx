@@ -58,6 +58,12 @@ function Social() {
 				Connect with me
 			</h2>
 			<div className={'flex gap-4'}>
+				<Link className={'socialIcon'}>
+					<FaLinkedinIn />
+				</Link>
+				<Link className={'socialIcon'}>
+					<FaGithub />
+				</Link>
 				<Link to={'social'} className={'socialIcon'}>
 					<FaFacebookF />
 				</Link>
@@ -66,12 +72,6 @@ function Social() {
 				</Link>
 				<Link className={'socialIcon'}>
 					<FaTwitter />
-				</Link>
-				<Link className={'socialIcon'}>
-					<FaLinkedinIn />
-				</Link>
-				<Link className={'socialIcon'}>
-					<FaGithub />
 				</Link>
 			</div>
 		</div>
