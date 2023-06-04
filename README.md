@@ -1,14 +1,13 @@
-# Personal Portfolio
+# My Portfolio
 
 
 This repository contains the code and assets for my personal portfolio website. The portfolio showcases my skills, experience, and projects in the field of web development. The website is designed to provide an overview of my work and serve as a digital representation of my professional profile.
 
 ## Features
 
-- **Features**: A brief introduction about myself, highlighting my background, skills, and career goals.
+- **Features**: A brief introduction about myself, highlighting my background.
 - **Projects**: A collection of my notable projects, with detailed descriptions, screenshots, and links to live demos or repositories.
-- **Skills**: An overview of my technical skills and areas of expertise.
-- **Resume**: A timeline showcasing my professional experience and achievements.
+- **Resume**: A timeline showcasing my professional experience, technical skills,areas of expertise and achievements.
 - **Contact**: A contact form for users to reach out to me directly.
 
 ## Technologies Used
