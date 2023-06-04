@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@include('index.css');
+
+/*----------------------- Header --------------------------------*/
+
+header #top {
+    padding: 150px 0;
+    margin-left: 20px;
+}
+
+header #title {
+    font-size: 1.1rem;
+    color: darkgray;
+    letter-spacing: -1px;
+}
+
+header #text {
+    font-size: 2.2rem;
+}
+
+header #text #name {
+    color: var(--red-color);
+    text-transform: uppercase;
+}
+
+header #subtitle {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.social {
+    padding-top: 80px;
+}
+
+.social h2 {
+    font-weight: bolder;
+    font: 1.3em Roboto Mono, monospace;
+    color: var(--red-color);
+}
+
+.socialIcon {
+    box-shadow: 10px 10px 19px var(--gray-color), -10px -10px 19px var(--green-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-color: var(--black-color);
+    color: var(--green-color);
+    border-bottom: 5px solid var(--red-color);
+}
+
+.socialIcon:hover {
+    -translate-y: -10px;
+    transition: all .8s ease;
+    animation: icon-hover .8s forwards;
+    cursor: pointer;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    transform: scale(1.1);
+    font-size: 2rem;
+}
+
+
+@keyframes icon-hover {
+    from {
+        transform: scale(1);
+        font-size: 1.5rem;
+    }
+
+    to {
+        transform: scale(1.2);
+        font-size: 1.8rem;
+    }
+}
+
+/*----------------------- Features --------------------------------*/

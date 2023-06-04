@@ -3,24 +3,29 @@ import React from "react";
 import { Link } from 'react-scroll'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaWhatsapp, FaTwitter } from 'react-icons/fa'
+import Navbar from "../navbar/Navbar";
 function Header() {
 	return (
-		<div id={'top'}>
-			<div className={'w-1/2 items-center'}>
-				{Intro()}
-				{Social()}
+		<header id={'header'} className={'w-full h-full  flex flex-col border-b-[1px] border-b-grayColor'}>
+			<Navbar />
+			<div id={'top'}>
+				<div className={'w-1/2 items-center'}>
+					{Intro()}
+					{Social()}
+				</div>
+				<div className={'w-1/2'}>Image</div>
 			</div>
-			<div className={'w-1/2'}>Image</div>
-		</div>
+		</header>
+
 	)
 }
 
 function Intro() {
 	const [sub_text] = useTypewriter({
 		words: [
-			"Full Stack Web Developer", "Graphic Designer",
-			"Support Technician", "Startup Entrepreneur",
-			"Digital Marketer", "Content Creator",
+			"Developer", "Designer",
+			"Technician", "Entrepreneur",
+			"Marketer", "Freelancer",
 		],
 		loop: true,
 		typeSpeed: 50,
@@ -28,12 +33,12 @@ function Intro() {
 		delaySpeed: 1500,
 	});
 	return (
-		<div className={'flex flex-col py	-5'}>
-			<h4 id={'title'} className={"text-lg font-normal uppercase"}>
-				Welcome to my World
+		<div className={'flex flex-col py-5 gap-4'}>
+			<h4 id={'title'} className={"text-lg text-gray-200 font-normal uppercase"}>
+				Hi, Welcome to my World!
 			</h4>
 			<h1 id={'text'} className={"text-6xl font-bold text-white"}>
-				Hi, I am
+				I&apos;M
 				<span id={'name'} className={"text-secondaryColor capitalize"}>
 					&nbsp;Samm Wakeni
 				</span>
@@ -43,8 +48,9 @@ function Intro() {
 				<Cursor cursorBlinking={false} cursorStyle={'|'} cursorColor={'#fff'} />
 			</h2>
 			<p id={'bio'} className={"text-lg font-normal justify"}>
-				A software developer professional based in East London, South Africa,<br />
-				with over 5 years of experience working in the industry.
+				A software developer based in East London, South Africa, My expertise and
+				experience make me a valuable asset in delivering exceptional solutions.
+				I am dedicated to continuously enhancing my skills and staying at the forefront of technological advancements.
 			</p>
 		</div>
 	)
@@ -53,8 +59,8 @@ function Intro() {
 
 function Social() {
 	return (
-		<div>
-			<h2 className={'text-base py-5 underline uppercase'}>
+		<div className={'social'}>
+			<h2 className={'text-base py-5 bold uppercase'}>
 				Connect with me
 			</h2>
 			<div className={'flex gap-4'}>
