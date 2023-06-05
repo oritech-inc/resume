@@ -4,8 +4,8 @@ import { Link } from 'react-scroll'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import Navbar from "../navbar/Navbar";
-import { AppData } from "../../constants/AppData";
 import { png } from "../../assets";
+import { AppData } from "../../constants/AppData";
 function Header() {
 	const bio = AppData[0];
 	
