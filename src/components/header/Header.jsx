@@ -8,11 +8,7 @@ import { AppData } from "../../constants/AppData";
 import { png } from "../../assets";
 function Header() {
 	const bio = AppData[0];
-	// const con = bio.personal.contact
-	// const job = bio.personal.jobs
-	// const soc = bio.personal.social
-
-	// console.log(bio.personal.jobs)
+	
 	let str = [];
 	for (let i = 0; i < bio.personal.jobs.length; i++) {
 		str.push(bio.personal.jobs[i]);
@@ -42,7 +38,7 @@ function Header() {
 						</h1>
 						<h2 id={'subtitle'} className={"text-2xl font-normal"}>
 							<span className={"uppercase ml-2"}>
-								-{sub_text}
+								{sub_text}
 								< Cursor cursorBlinking={true} cursorStyle={'|'} cursorColor={'#bd6178'} />
 							</span>
 

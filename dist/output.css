@@ -2845,6 +2845,10 @@ header #subtitle {
   font-weight: bolder;
 }
 
+header .title-text{
+  font-size: 16px;
+}
+
 .social {
   padding-top: 50px;
 }
