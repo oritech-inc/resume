@@ -55,7 +55,7 @@ header .title-text{
     justify-content: center;
     align-items: center;
     border-radius: 20%;
-    background-color: var(--black-color);
+    background-color: seagreen;
     color: var(--green-color);
 }
 
