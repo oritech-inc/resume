@@ -39,7 +39,7 @@ function Header() {
 						<h2 id={'subtitle'} className={"text-2xl font-normal"}>
 							<span className={"uppercase ml-2"}>
 								{sub_text}
-								< Cursor cursorBlinking={true} cursorStyle={'|'} cursorColor={'#bd6178'} />
+								< Cursor cursorBlinking={true} cursorStyle={'|'} cursorColor={'#154c79'} />
 							</span>
 
 

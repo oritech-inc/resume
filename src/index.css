@@ -2,11 +2,11 @@
 
 :root {
     font-family: 'Roboto Mono';
-    background: #2f4f4f;
+    /* background: #154c79; */
 
     --red-color: #c75757;
     --white-color: #ffffff;
-    --green-color: #2f4f4f;
+    --green-color: #154c79;
     --black-color: #101826;
     --gray-color: #1F2937;
 }

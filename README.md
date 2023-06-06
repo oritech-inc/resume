@@ -1,6 +1,5 @@
 # My Portfolio
 
-
 This repository contains the code and assets for my personal portfolio website. The portfolio showcases my skills, experience, and projects in the field of web development. The website is designed to provide an overview of my work and serve as a digital representation of my professional profile.
 
 ## Features
@@ -13,10 +12,10 @@ This repository contains the code and assets for my personal portfolio website. 
 ## Technologies Used
 
 - HTML5
+- React.js
 - CSS3
 - JavaScript
 - Tailwind
-- React.js
 - Node.js
 
 ## Getting Started
@@ -32,10 +31,10 @@ To set up the project locally, follow these steps:
 ## Project Structure
 
 - `/src`: Contains the source code for the frontend.
-    - `/components`: Reusable components used throughout the website.
-    - `/constants`: Individual pages of the portfolio.
-    - `/css`: CSS stylesheets for styling the components and pages.
-    - `/assets`: Static assets, including images, javacript and fonts.
+  - `/components`: Reusable components used throughout the website.
+  - `/constants`: Individual pages of the portfolio.
+  - `/css`: CSS stylesheets for styling the components and pages.
+  - `/assets`: Static assets, including images, javacript and fonts.
 - `README.md`: Information about the project and instructions for running it.
 
 ## Contributing

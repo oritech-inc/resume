@@ -2855,7 +2855,7 @@ header .title-text{
 
 .social h2 {
   font-weight: bolder;
-  font: 1.2em Roboto Mono, monospace;
+  /* font: 1.2em Roboto Mono, monospace; */
   color: var(--red-color);
 }
 
@@ -2869,8 +2869,8 @@ header .title-text{
   justify-content: center;
   align-items: center;
   border-radius: 20%;
-  background-color: seagreen;
-  color: var(--green-color);
+  background-color: #154c79;
+  /* color: var(--green-color); */
 }
 
 .socialIcon:hover {
